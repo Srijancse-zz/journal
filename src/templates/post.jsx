@@ -254,12 +254,10 @@ const filterRelatedPosts = (allPosts, categorySlug, blogSlug) => {
 
 const Post = ({
   data: { prismicPost, allPosts },
-  location: {
-    state: { sidebar },
-  },
+  location: { state },
   path,
 }) => {
-  const [showSidebar, setShowSidebar] = useState(sidebar || false)
+  const [showSidebar, setShowSidebar] = useState(state.sidebar || false)
   const [headers, setHeaders] = useState([])
 
   useEffect(() => {

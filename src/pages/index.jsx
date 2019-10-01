@@ -17,7 +17,7 @@ const HomepageHeader = styled.div`
   .topImages {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: start;
   }
   .home-logo {
     margin-bottom: 1rem;
