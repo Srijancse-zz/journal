@@ -257,7 +257,9 @@ const Post = ({
   location: { state },
   path,
 }) => {
-  const [showSidebar, setShowSidebar] = useState(state.sidebar || false)
+  const [showSidebar, setShowSidebar] = useState(
+    (state && state.sidebar) || false
+  )
   const [headers, setHeaders] = useState([])
 
   useEffect(() => {
