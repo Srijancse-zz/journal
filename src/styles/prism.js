@@ -82,7 +82,7 @@ const prism = css`
   }
 
   .token.string {
-    color: #22a2c9;
+    color: #50a14f;
   }
 
   .token.selector {

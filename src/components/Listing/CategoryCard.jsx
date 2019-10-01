@@ -130,7 +130,11 @@ const CategoryCard = ({ data, index, cardLink, className }) => {
     data: { title, description },
   } = data
   return (
-    <CardWrapper to={cardLink} uid={data.uid} className={className}>
+    <CardWrapper
+      state={{ sidebar: true }}
+      to={cardLink}
+      uid={data.uid}
+      className={className}>
       <CardContent>
         <span className="num">
           <img src={categoryIndex[index]} alt="" />
