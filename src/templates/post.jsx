@@ -252,11 +252,8 @@ const filterRelatedPosts = (allPosts, categorySlug, blogSlug) => {
     .slice(0, 2)
 }
 
-const Post = ({
-  data: { prismicPost, allPosts },
-  location: { state },
-  path,
-}) => {
+const Post = ({ data: { prismicPost, allPosts }, location, path }) => {
+  const { state } = location
   const [showSidebar, setShowSidebar] = useState(
     (state && state.sidebar) || false
   )
