@@ -4,7 +4,7 @@ module.exports = {
   titleAlt: 'Clarisights Journal', // Title for JSONLD
   description: 'Where thoughts from clarisights come alive',
   headline: 'Clarisights - The next gen workspace for performance marketing teams', // Headline for schema.org JSONLD
-  url: 'https://clarisights-journal.netlify.com', // Domain of your site. No trailing slash!
+  url: 'https://journal.clarisights.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   logo:
     'https://clarisights-journal.cdn.prismic.io/clarisights-journal%2F06efbb56-8b0f-469e-83f0-6c3acdcb17de_logo.svg', // Used for SEO
