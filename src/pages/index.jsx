@@ -160,10 +160,9 @@ const Index = props => {
               <img src={homepage.data.journal.url} alt="" />
             </div>
             <div className="about u-margin-top-small">
-              A space where our team’s thoughts and explorations are logged in.
-              We regularly jot down about our projects, product updates,
-              business; breaking down our processes and findings to share them
-              with you. <br />
+              A space for our team to log and explore thoughts.
+              We regularly write about our projects, product updates,
+              business, culture and process teardowns. <br />
               <i className="signature">- your friends at Clarisights</i>
             </div>
             <div
