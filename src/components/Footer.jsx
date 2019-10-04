@@ -138,8 +138,8 @@ const Footer = ({ categories, path, allPosts }) => (
           href="https://www.linkedin.com/company/clarisights/">
           LinkedIn
         </ExternLink>
-        <ExternLink target="_blank" href="https://www.dribble.com/clarisights">
-          Dribble
+        <ExternLink target="_blank" href="https://www.dribbble.com/clarisights">
+          Dribbble
         </ExternLink>
       </Column>
       <Column>
